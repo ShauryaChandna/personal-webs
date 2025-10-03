@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import Link from 'next/link';
 
 export default function Home() {
   const headerRef = useRef<HTMLDivElement | null>(null);
@@ -144,7 +143,7 @@ export default function Home() {
             <div className="md:col-span-2 flex justify-center">
               <div className="w-80 h-80 rounded-lg overflow-hidden border-2 border-accent/20">
                 <img 
-                  src="/profile-photo.jpg" 
+                  src="/personal-webs/profile-photo.jpg" 
                   alt="Shaurya Chandna" 
                   className="w-full h-full object-cover"
                 />
@@ -208,7 +207,7 @@ export default function Home() {
               <ul className="text-foreground/80 mb-4 leading-relaxed space-y-2">
                 <li className="flex items-start">
                   <span className="text-accent mr-3 mt-1">▶</span>
-                  <span>Developed a hybrid time series forecasting system combining Croston's Method and ARIMA with a decision tree selector</span>
+                  <span>Developed a hybrid time series forecasting system combining Croston&apos;s Method and ARIMA with a decision tree selector</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-accent mr-3 mt-1">▶</span>
@@ -283,7 +282,7 @@ export default function Home() {
               </div>
               <p className="text-foreground/80 mb-6 leading-relaxed">
                 Architected a Retrieval Augmented Generation (RAG) system to transform resource documents into interactive quizzes. 
-                Utilized OpenAI's text-embedding-3-small model and Pinecone vector database with optimized indexing strategies.
+                Utilized OpenAI&apos;s text-embedding-3-small model and Pinecone vector database with optimized indexing strategies.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {['Python', 'FastAPI', 'OpenAI API', 'Pinecone', 'LangChain', 'React'].map((skill) => (
