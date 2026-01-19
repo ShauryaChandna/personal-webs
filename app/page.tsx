@@ -89,7 +89,7 @@ export default function Home() {
                 <span className="text-accent mr-1">{i.num}</span><span className="group-hover:text-accent">{i.label}</span>
               </button>
             ))}
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="text-sm text-accent border border-accent/60 hover:border-accent px-4 py-2 rounded-md transform transition-transform duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(0,230,184,0.25)]">
+            <a href="./scresume.pdf" target="_blank" rel="noopener noreferrer" className="text-sm text-accent border border-accent/60 hover:border-accent px-4 py-2 rounded-md transform transition-transform duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(0,230,184,0.25)]">
               Resume
             </a>
           </nav>
@@ -103,7 +103,7 @@ export default function Home() {
           <p className="text-muted mt-6 animate-fade-in max-w-[60%]" style={{animationDelay:'400ms'}}>
             I&apos;m a computational mathematics student at the University of Waterloo, specializing in data science and aspiring to work in machine learning. I&apos;m currently focused on learning, building and applying intelligent models that solve real-world problems.
           </p>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center mt-8 text-accent border border-accent/60 hover:border-accent px-5 py-3 rounded-md animate-fade-in transform transition-transform duration-200 hover:-translate-y-0.5 hover:shadow-[0_12px_24px_rgba(0,230,184,0.25)]" style={{animationDelay:'500ms'}}>
+          <a href="./scresume.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center mt-8 text-accent border border-accent/60 hover:border-accent px-5 py-3 rounded-md animate-fade-in transform transition-transform duration-200 hover:-translate-y-0.5 hover:shadow-[0_12px_24px_rgba(0,230,184,0.25)]" style={{animationDelay:'500ms'}}>
             Check out my resume!
             </a>
           </div>
