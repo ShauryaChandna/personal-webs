@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
     unoptimized: true
   },
   basePath: '/personal-webs',
-  assetPrefix: '/personal-webs',
+  assetPrefix: '/personal-webs/',
 };
 
 export default nextConfig;
